@@ -1,0 +1,30 @@
+# Notebook environment
+jupyterlab==4.6.3
+ipykernel==7.3.0
+nbconvert==7.17.1
+
+# Data processing and scientific computing
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+PyYAML==6.0.3
+tqdm==4.70.1
+
+# Visualisation
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Classical machine learning and boosting
+# macOS system dependency for LightGBM: brew install libomp
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+
+# Tuning and model interpretation
+optuna==5.0.0
+shap==0.52.0
+interpret-core==0.7.8
+
+# Sequence-model experiments; pip selects a compatible CPU/GPU build.
+torch>=2.8,<3
